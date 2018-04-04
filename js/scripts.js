@@ -39,8 +39,8 @@ $().ready(function(){
         $(".balance").html(balanceElement);
     }else{
       let balance = initial;
-      let account = new BankAccount(balance);
-      if(withdrawlAmount){
+      let account = new BankAccount(balance); //calling it from the backend
+      if(withdrawlAmount){ //run the withdrawl method to subtract from the total
         balance = account.withdrawl(withdrawlAmount);
       }
       if(depositAmount){
