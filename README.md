@@ -3,7 +3,7 @@
 #### By Julia Sheremet
 
 ## Description
-_This webpage implements Object Oriented JavaScript using Constructors, Protypes and Loops. This bank account webpage is designed to take take the users name, initial balance, withdrawl, and deposit information and calculate the total balance back to the user. 
+_This webpage implements Object Oriented JavaScript using Constructors, Protypes and Loops. This bank account webpage is designed to take take the users name, initial balance, withdrawl, and deposit information and calculate the total balance back to the user._ 
 
 ## Specifications
 
