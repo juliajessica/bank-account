@@ -41,7 +41,7 @@ $().ready(function(){
       let balance = initial;
       let account = new BankAccount(balance); //creating an instance - calling it from the backend
       if(withdrawlAmount){ //run the withdrawl method to subtract from the total
-        balance = account.withdrawl(withdrawlAmount);
+        balance = account.withdrawl(withdrawlAmount); //calling the instance 'account' to run on the 'withdrawl method in the backend'
       }
       if(depositAmount){
         balance = account.deposit(depositAmount);
